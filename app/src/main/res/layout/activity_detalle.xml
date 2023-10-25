@@ -15,15 +15,18 @@
         android:gravity="center"
         android:layout_margin="10dp"
         >
-        <ImageView
+        <VideoView
+            android:id="@+id/gatomp4"
             android:layout_width="250dp"
             android:layout_height="250dp"
-            android:src="@drawable/rascadortuboconjugueteparagatos"/>
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"/>
         <TextView
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_margin="20dp"
-            android:text="Rascador Totem con juguete"
+            android:text="Peineta Premium"
             android:background="@color/black"
             android:textSize="20dp"
             android:textAlignment="center"
@@ -33,8 +36,8 @@
         <TextView
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="¿Cansado de que tu gatito rasque tus muebles? Con este rascador no sólo tu mascota dejará de lado tus muebles, tambien podrá entretenerse con la pelotita incorporada"
-            android:layout_margin="12dp"
+            android:text="Fina peineta delicada con el pelito de tu bebé gatuno"
+            android:layout_margin="15dp"
             android:textColor="@color/black"
             />
 

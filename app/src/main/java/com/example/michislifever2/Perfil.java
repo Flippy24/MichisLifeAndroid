@@ -83,7 +83,7 @@ public class Perfil extends AppCompatActivity {
             do{
                 String linea = "|| " + c.getInt(0) + " || " + c.getString(1)+
                         " || " + c.getString(2) + "||" + c.getString(3)+
-                        " || "+" ||"+ c.getString(4) ;
+                        " || $"+ c.getString(4) ;
                 arr[i] = linea;
                 i++;
             }while (c.moveToNext() == true);
